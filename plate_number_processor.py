@@ -2,7 +2,7 @@ def chek_plate_number(value: str):
     '''
     The function verified a string against a format.
 
-    :param value: should be a string
+    :param value: should be a string.
     :return: Return a tuple of values | False
     '''
     rules = [len(value) == 8,
@@ -20,7 +20,7 @@ def get_number_sum(value):
     '''
     Return a sum of values iterable object.
 
-    :param value: should be an iterable object
+    :param value: should be an iterable object.
     :return: Return type int
     '''
     value_sum = 0
