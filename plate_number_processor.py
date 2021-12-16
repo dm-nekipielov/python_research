@@ -1,8 +1,9 @@
 def chek_plate_number(value: str):
     '''
-    The function verified a string against a format.\n
-    :param value: string
-    :return: Return a tuple of values
+    The function verified a string against a format.
+
+    :param value: should be a string
+    :return: Return a tuple of values | False
     '''
     rules = [len(value) == 8,
              value[:2].isalpha(),
@@ -17,8 +18,10 @@ def chek_plate_number(value: str):
 
 def get_number_sum(value):
     '''
+    Return a sum of values iterable object.
+
     :param value: should be an iterable object
-    :return: Return the sum of values iterable object.
+    :return: Return type int
     '''
     value_sum = 0
     for i in value:

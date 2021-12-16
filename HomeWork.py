@@ -4,7 +4,6 @@ from plate_number_processor import get_number_sum, chek_plate_number
 print('Type "exit" to quit the program.')
 unique_numbers = set(plates_list)
 
-
 while True:
     plate_number = input('Input interested plate number: ').upper()
     if chek_plate_number(plate_number):
@@ -20,6 +19,3 @@ while True:
         break
     else:
         print(f'Invalid input! Please try again.')
-
-
-
